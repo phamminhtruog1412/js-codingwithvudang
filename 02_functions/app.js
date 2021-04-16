@@ -14,3 +14,11 @@ const func = function(love){
     console.log(`Love Nhu ${love} lan`)
 }
 func (3000)
+
+/**
+ * Arrow function
+ */
+const arrow = (name) =>{
+    console.log(`my name is ${name}`)
+}
+arrow("chong nhu")
